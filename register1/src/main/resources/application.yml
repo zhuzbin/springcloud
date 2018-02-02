@@ -1,0 +1,9 @@
+server:
+  port: 1111
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1112/eureka/
