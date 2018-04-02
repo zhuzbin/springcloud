@@ -13,6 +13,11 @@
         <module>service1</module>
         <module>client</module>
         <module>register1</module>
+        <module>web</module>
+        <module>dao</module>
+        <module>service</module>
+        <module>zhuService</module>
+        <module>clientFegin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

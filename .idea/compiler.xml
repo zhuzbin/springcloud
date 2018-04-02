@@ -7,18 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
+        <module name="clientFegin" />
+        <module name="dao" />
         <module name="register" />
         <module name="register1" />
+        <module name="service" />
         <module name="service1" />
+        <module name="web" />
+        <module name="zhuService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.6" />
       <module name="client1" target="1.6" />
+      <module name="clientFegin" target="1.6" />
+      <module name="dao" target="1.6" />
       <module name="register" target="1.6" />
       <module name="register1" target="1.6" />
+      <module name="service" target="1.6" />
       <module name="service1" target="1.6" />
       <module name="springcloud" target="1.6" />
+      <module name="web" target="1.6" />
+      <module name="zhuService" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
